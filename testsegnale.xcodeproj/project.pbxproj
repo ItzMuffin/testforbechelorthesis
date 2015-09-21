@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823642FE1BAC58EB00FECFFC /* MobileWiFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823642FD1BAC58EB00FECFFC /* MobileWiFi.framework */; };
+		825217111BAC50AB00C0F909 /* testsegnale.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 825217101BAC50AB00C0F909 /* testsegnale.entitlements */; settings = {ASSET_TAGS = (); }; };
 		825928A61BAB1C4D00FA4148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 825928A51BAB1C4D00FA4148 /* main.m */; };
 		825928A91BAB1C4D00FA4148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 825928A81BAB1C4D00FA4148 /* AppDelegate.m */; };
 		825928AC1BAB1C4D00FA4148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825928AB1BAB1C4D00FA4148 /* ViewController.m */; };
@@ -14,6 +16,7 @@
 		825928B11BAB1C4D00FA4148 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825928B01BAB1C4D00FA4148 /* Images.xcassets */; };
 		825928B41BAB1C4D00FA4148 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825928B21BAB1C4D00FA4148 /* LaunchScreen.xib */; };
 		825928C01BAB1C4D00FA4148 /* testsegnaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 825928BF1BAB1C4D00FA4148 /* testsegnaleTests.m */; };
+		82788B591BAEF37900E5EDE5 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82788B581BAEF37900E5EDE5 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		823642FD1BAC58EB00FECFFC /* MobileWiFi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileWiFi.framework; path = System/Library/PrivateFrameworks/MobileWiFi.framework; sourceTree = SDKROOT; };
+		825217101BAC50AB00C0F909 /* testsegnale.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testsegnale.entitlements; sourceTree = "<group>"; };
 		825928A01BAB1C4D00FA4148 /* testsegnale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testsegnale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		825928A41BAB1C4D00FA4148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		825928A51BAB1C4D00FA4148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		825928B91BAB1C4D00FA4148 /* testsegnaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testsegnaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		825928BE1BAB1C4D00FA4148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		825928BF1BAB1C4D00FA4148 /* testsegnaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testsegnaleTests.m; sourceTree = "<group>"; };
+		82788B581BAEF37900E5EDE5 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823642FE1BAC58EB00FECFFC /* MobileWiFi.framework in Frameworks */,
+				82788B591BAEF37900E5EDE5 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,9 @@
 		825928971BAB1C4C00FA4148 = {
 			isa = PBXGroup;
 			children = (
+				82788B581BAEF37900E5EDE5 /* IOKit.framework */,
+				823642FD1BAC58EB00FECFFC /* MobileWiFi.framework */,
+				825217101BAC50AB00C0F909 /* testsegnale.entitlements */,
 				825928A21BAB1C4D00FA4148 /* testsegnale */,
 				825928BC1BAB1C4D00FA4148 /* testsegnaleTests */,
 				825928A11BAB1C4D00FA4148 /* Products */,
@@ -163,7 +174,7 @@
 		825928981BAB1C4C00FA4148 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Michele Maffei";
 				TargetAttributes = {
 					8259289F1BAB1C4C00FA4148 = {
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				825928AF1BAB1C4D00FA4148 /* Main.storyboard in Resources */,
+				825217111BAC50AB00C0F909 /* testsegnale.entitlements in Resources */,
 				825928B41BAB1C4D00FA4148 /* LaunchScreen.xib in Resources */,
 				825928B11BAB1C4D00FA4148 /* Images.xcassets in Resources */,
 			);
@@ -284,6 +296,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -346,19 +359,40 @@
 		825928C41BAB1C4D00FA4148 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = /Users/Muffin/Documents/Xcode/testsegnale/testsegnale.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks;
 				INFOPLIST_FILE = testsegnale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.private.ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
 			};
 			name = Debug;
 		};
 		825928C51BAB1C4D00FA4148 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = /Users/Muffin/Documents/Xcode/testsegnale/testsegnale.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks;
 				INFOPLIST_FILE = testsegnale/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.private.ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -377,6 +411,7 @@
 				);
 				INFOPLIST_FILE = testsegnaleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.private.ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testsegnale.app/testsegnale";
 			};
@@ -392,6 +427,7 @@
 				);
 				INFOPLIST_FILE = testsegnaleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.private.ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testsegnale.app/testsegnale";
 			};
@@ -416,6 +452,7 @@
 				825928C51BAB1C4D00FA4148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		825928C61BAB1C4D00FA4148 /* Build configuration list for PBXNativeTarget "testsegnaleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +461,7 @@
 				825928C81BAB1C4D00FA4148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
